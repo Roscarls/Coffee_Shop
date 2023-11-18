@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Owl</title>
+	<link rel="icon" type="image/x-icon" href="img/logo2.png">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Box Icon-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div>
+        <!--Navbar-->
+        <header>
+            <a href="#" class="logo">
+                <img src="img/logo2.png" alt="">
+            </a>
+            <!-- Menu-Icon -->
+            <i class='bx bxs-food-menu' id="menu-icon"></i>
+            <!-- Links -->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">products</a></li>
+                <li><a href="#customers">customers</a></li>
+            </ul>
+            <!-- Icon -->
+            <div class="header-icon">
+                <div class="shopping">
+                    <a href="" class='bx bx-cart'></a>
+                    <span class="quantity" id="quantity">0</span>
+                </div>
+                <i class='bx bx-search' id="search-icon"></i>
+            </div>
+            <!-- Search Box -->
+            <div class="search-box">
+                <input type="search" name="" id="" placeholder="Search...">
+            </div>
+        </header>
+
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1>Start your day<br> with coffee </h1>
+                <p>Welcome to Night Owl</p>
+                <p>We have coffee for you</p>
+                <br>
+                <a href="#products" class="btn">Shop
+                    Now</a>
+            </div>
+            <div class="home-img">
+                <img src="img/main2.png" alt="">
+                <!--อย่าลืมลงรูป-->
+            </div>
+        </section>
+        <!---About-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/about.png" alt="">
+            </div>
+            <div class="about-text">
+                <h2>History</h2>
+                <p>เว็บไซต์นี้เราสร้างมาเพื่อขายกาแฟคุณภาพของร้าน "Night Owl"</p>
+                <p>Night Owl นั้นมีมาตั้งแต่ 10 ปีที่แล้วแต่เราไม่ได้ตั้งชื่อว่า Night Owl แต่ก่อนร้านเรามีชื่อว่า
+                    "สุริยากาแฟสด"</p>
+                <p>ร้าน "สุริยากาแฟสด"
+                    นั้นเป็นร้านที่สืบทอดต่อกันมารุ่นต่อรุ่นโดยเราคัดสรรเมล็ดกาแฟอย่างดีเพื่อคุณภาพที่ดีต่อผู้บริโภค</p>
+                <p>ต่อมาก็เกิดปัญหาทางเศรษฐกิจของร้าน
+                    จึงทำให้เราขาดทุนเป็นจำนวนมากนั่นจึงเป็นเหตุผลที่เราต้องปรับเปลี่ยนร้าน</p>
+                <p>ให้เหมาะสมกับยุคสมัย โดยที่ยังคงความ Vintage ของรสชาติกาแฟไว้ และจึงเปลี่ยนชื่อเป็น Night Owl</p>
+                <a href="page1.html" class="btn">Learn More</a>
+            </div>
+        </section>
+        <!---Products-->
+        <section class="products" id="products">
+            <div class="heading">
+                <h2>Our Popular Products</h2>
+            </div>
+            <!--Container-->
+            <div class="products-container">
+                <div class="box">
+                    <img src="img/p1.png" alt="">
+                    <h3>Americano</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p2.png" alt="">
+                    <h3>Macchiato</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p3.png" alt="">
+                    <h3>Espresso</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p4.png" alt="">
+                    <h3>Latte</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p5.png" alt="">
+                    <h3>Cappuccino</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/p6.png" alt="">
+                    <h3>Mocha</h3>
+                    <div class="content">
+                        <span>35 Baht</span>
+                        <a class="changeQuantity" data-action="increase">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Customers -->
+        <section class="customers" id="customers">
+            <div class="heading">
+                <h2>Our Customers</h2>
+            </div>
+            <!-- Container -->
+            <div class="customers-container">
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>ส่วนตัวแล้วคิดว่ากาแฟร้านนี้ไม่เหมือนร้านไหนๆที่เคยกิน</p>
+                    <p>เป็นร้านที่มีเอกลักษณ์เฉพาะตัวที่น่าหลงใหลมากเลยครับ</p>
+                    <h2>แฮปปี้ ดี้ด้า</h2>
+                    <img src="img/rev1.png" alt="">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>อร่อยดีครับ...</p>
+                    <h2>ศุภชัย ราตรีสวัสดิ์</h2>
+                    <img src="img/rev2.png" alt="">
+                </div>
+                <div class="box">
+                    <div class="stars">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>เป็นร้านที่ดีมากเลยครับ ตอนเด็กๆผมเห็นพ่อชอบมาร้านนี้บ่อย</p>
+                    <p>จนตอนนี้ผมรู้แล้วครับว่าทำไมพ่อชอบแอบแม่มากินทุกวัน</p>
+                    <h2>สตีเว่น สจ๊วต</h2>
+                    <img src="img/rev3.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer-box">
+                <h2>Coffee Shop</h2>
+                <p></p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Support</h3>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Product</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>View Guides</h3>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog Posts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contact">
+                    <span><i class='bx bxs-map'></i>ที่อยู่</span>
+                    <span><i class='bx bxs-phone'></i>เบอร์โทร</span>
+                    <span><i class='bx bxs-envelope'></i>อีเมล์</span>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&#169; NightOwl All Right Reserved</p>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="main.js"></script>
+</body>
